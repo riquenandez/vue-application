@@ -1,7 +1,24 @@
-# Simple Vue Application
+# vue-application
 
-## Set up instructions
+## Project setup
+```
+npm install
+```
 
-## Description
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-This app is a simple Vue application that queries some photos and displays said photos in a gallery
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
