@@ -1,13 +1,17 @@
 # vue-application
 
-requirements: This project requires your machine to have Node.js and npm installed
-if you dont have Node.js installed, you can download it here: https://nodejs.org/en/
+## Requirements
+
+This project requires your machine to have Node.js and npm installed.
+If you dont have Node.js installed, you can download it here: https://nodejs.org/en/
 
 Also, this project assumes profficiency with the command line.
 
-Once you have Node.js installed, download the project files
+### Download project files
 
-Then, navigate to the 'vue-application' directory
+Once you have Node.js installed, download the project files or clone the directory using the 'clone or download' button.
+
+### Navigate to 'vue-application' directory
 
 ```
 cd <your path to 'vue-application' directory>
