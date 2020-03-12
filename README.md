@@ -35,7 +35,7 @@ You can choose to download a zip file containing the project files, or you can c
 
 ## Cloning the project repository through the command line
 
-Note: This approach will clone the project repository into the directory you're in. I recommend navigating to your Desktop directory first.
+Note: This approach will clone the project repository into the directory you're in. I recommend navigating to a preferred directory first. This tutorial will use the Desktop directory.
 
 ```
 cd ~/Desktop
