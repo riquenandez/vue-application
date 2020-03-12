@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <WelcomePage />
-    <Posts v-bind:posts="posts" />
+    <Posts />
   </div>
 </template>
 
@@ -10,22 +10,7 @@ import Posts from "./components/Posts";
 import WelcomePage from "./components/WelcomePage";
 export default {
   name: "App",
-  components: { Posts, WelcomePage },
-  data() {
-    return {
-      posts: []
-    };
-  },
-  mounted() {
-    this.getAllImages();
-  },
-  methods: {
-    async getAllImages() {
-      const response = await fetch("https://picsum.photos/v2/list");
-      const data = await response.json();
-      this.posts = data;
-    }
-  }
+  components: { Posts, WelcomePage }
 };
 </script>
 

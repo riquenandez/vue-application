@@ -1,15 +1,25 @@
-
+//Welcome Page component
 
 <template>
-  <div class="welcomePage">
+  <div
+    class="welcomePage"
+    data-aos-duration="4000"
+    data-aos-easing="ease-in"
+    data-aos-offset="200"
+    data-aos-delay="50"
+  >
     <header class="title">
-      <p class="signature">EH</p>
+      <p data-aos="fade-left" class="signature">EH</p>
     </header>
-    <section class="quote">
-      <p>"In photography there is a reality so subtle that it becomes more real than reality."</p>
+    <section class="quote" data-aos="fade-down">
+      <p>
+        "In photography there is a reality so subtle that it becomes more real
+        than reality."
+      </p>
       <h1>- Alfred Stieglitz</h1>
     </section>
-    <footer>
+    <footer data-aos="fade-up" data-aos-once="true">
+      <p class="arrowText">SCROLL DOWN</p>
       <object v-bind:data="arrowSvg" type="image/svg+xml" />
     </footer>
   </div>
@@ -62,7 +72,12 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+.arrowText {
+  margin: 0;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
 object {
-  padding: 30px;
+  padding-bottom: 30px;
 }
 </style>

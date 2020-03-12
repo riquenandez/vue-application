@@ -1,8 +1,16 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
 
-Vue.config.productionTip = false
+//aos animation import
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  created() {
+    //initialize AOS
+    AOS.init();
+  },
+  render: h => h(App)
+}).$mount("#app");

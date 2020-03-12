@@ -1,3 +1,5 @@
+//Post Container component
+//this component loads image data
 <template>
   <div class="hello">
     <div v-for="post in posts" :key="post.id">
@@ -14,24 +16,24 @@ export default {
   components: {
     PostItem
   },
-  props: ["posts"]
+  data() {
+    return {
+      posts: []
+    };
+  },
+  mounted() {
+    this.getAllImages();
+  },
+  methods: {
+    //fetch images from url
+    async getAllImages() {
+      const response = await fetch("https://picsum.photos/v2/list");
+      const data = await response.json();
+      this.posts = data;
+    }
+  }
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
 </style>

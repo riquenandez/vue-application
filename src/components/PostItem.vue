@@ -1,7 +1,7 @@
 <template>
   <div class="postItem">
     <img :src="post.download_url" />
-    <p>{{post.author}}</p>
+    <p>Photo Credit: {{ post.author }}</p>
   </div>
 </template>
 
