@@ -13,7 +13,7 @@ Also, this project assumes profficiency with the command line and git.
 
 Note: The codes used here are for macOS.
 
-### Verify Node is installed
+## Verify Node is installed
 
 Open a terminal window and run this command.
 
