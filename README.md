@@ -1,5 +1,9 @@
 # Read me
 
+## Intro
+
+This project is a simple single page application built with Vue.js framework. The application queries image data from a given url and displays it in a gallery.
+
 ## Requirements
 
 This project requires your machine to have Node.js and npm installed.
