@@ -34,6 +34,7 @@ html,
 body {
   margin: 0;
   overflow: auto;
+  background-color: black;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -41,6 +42,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
-  background-color: black;
 }
 </style>

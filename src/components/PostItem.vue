@@ -15,6 +15,11 @@ export default {
 <style scoped>
 .postItem {
   width: auto;
+  padding: 20px;
+  height: auto;
+}
+p {
+  font-style: italic;
 }
 img {
   width: 100%;
