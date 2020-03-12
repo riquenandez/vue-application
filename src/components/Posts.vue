@@ -1,7 +1,7 @@
-//Post Container component
-//this component loads image data
+//Post Container component //this component loads image data
 <template>
-  <div class="hello">
+  <div>
+    <p>Gallery</p>
     <div v-for="post in posts" :key="post.id">
       <PostItem v-bind:post="post" />
     </div>
@@ -35,5 +35,10 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+p {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 30px;
+}
 </style>
