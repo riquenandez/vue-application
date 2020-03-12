@@ -25,11 +25,17 @@ If the command does not return a version, then Node is not installed. Do not pro
 
 ## Download project files
 
-Once you have verified Node.js is installed, download the project files using the 'clone or download' button. You can choose to download a zip file containing the files, or you can clone the repository using the command line.
+Once you have verified Node.js is installed, download the project files using the 'clone or download' button.
 
-### Cloning the project repository through the command line
+![](src/assets/cloneButton.png)
 
-Note: this will clone the project repository into the directory you're in. I recommend navigating to your Desktop directory first.
+You can choose to download a zip file containing the project files, or you can copy the project-url to your clipboard to use in the command line.
+
+![](src/assets/cloneDownload.png)
+
+## Cloning the project repository through the command line
+
+Note: This approach will clone the project repository into the directory you're in. I recommend navigating to your Desktop directory first.
 
 ```
 cd ~/Desktop
