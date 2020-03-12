@@ -49,4 +49,4 @@ npm run serve
 
 After this code, you should see a message on your terminal showing you where the app is running. You can click the link displayed or artenatively you can type it in your browser.
 
-![](assets/success.png)
+![](src/assets/success.png)
