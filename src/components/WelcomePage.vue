@@ -12,7 +12,14 @@ export default { name: "WelcomePage" };
 
 <style scoped>
 .welcomePage {
-  width: 100%;
-  height: 100%;
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h2 {
+  margin: 0;
+  color: black;
 }
 </style>

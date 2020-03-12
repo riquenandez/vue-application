@@ -41,7 +41,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
-  margin-top: 60px;
   background-color: black;
 }
 </style>
