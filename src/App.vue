@@ -1,16 +1,18 @@
+//App component
+
 <template>
   <div id="app">
     <WelcomePage />
-    <Posts />
+    <Gallery />
   </div>
 </template>
 
 <script>
-import Posts from "./components/Posts";
+import Gallery from "./components/Gallery";
 import WelcomePage from "./components/WelcomePage";
 export default {
   name: "App",
-  components: { Posts, WelcomePage }
+  components: { Gallery, WelcomePage }
 };
 </script>
 

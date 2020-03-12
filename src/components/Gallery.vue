@@ -1,24 +1,24 @@
-//Post Container component //this component loads image data
+//Post Container component, this component loads image data
 <template>
   <div>
     <p>Gallery</p>
-    <div v-for="post in posts" :key="post.id">
-      <PostItem v-bind:post="post" />
+    <div v-for="item in items" :key="item.id">
+      <GalleryItem v-bind:item="item" />
     </div>
   </div>
 </template>
 
 <script>
-import PostItem from "./PostItem";
+import GalleryItem from "./GalleryItem";
 
 export default {
-  name: "Posts",
+  name: "Gallery",
   components: {
-    PostItem
+    GalleryItem
   },
   data() {
     return {
-      posts: []
+      items: []
     };
   },
   mounted() {
@@ -29,7 +29,7 @@ export default {
     async getAllImages() {
       const response = await fetch("https://picsum.photos/v2/list");
       const data = await response.json();
-      this.posts = data;
+      this.items = data;
     }
   }
 };

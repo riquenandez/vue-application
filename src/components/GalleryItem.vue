@@ -1,19 +1,21 @@
+//Post item component
+
 <template>
-  <div class="postItem">
-    <img :src="post.download_url" />
-    <p>Photo Credit: {{ post.author }}</p>
+  <div class="galleryItem">
+    <img :src="item.download_url" />
+    <p>Photo Credit: {{ item.author }}</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "PostItem",
-  props: ["post"]
+  name: "GalleryItem",
+  props: ["item"]
 };
 </script>
 
 <style scoped>
-.postItem {
+.galleryItem {
   width: auto;
   padding: 20px;
   height: auto;
